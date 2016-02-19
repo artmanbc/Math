@@ -8,14 +8,14 @@ if ("add" == op){
 	var answer = x + y;
 	console.log(answer);}
 
-else if ("subtract" == op){
+if ("subtract" == op){
 	var answer = x - y;
 	console.log(answer);}
 
-else if ("multiply" == op){
+if ("multiply" == op){
 	var answer = x * y;
 	console.log(answer);}
 
-else if ("divide"== op){
+if ("divide"== op){
 	var answer = x / y;
 	console.log(answer);}
