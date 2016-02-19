@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var op = process.argv[2],
+	x = +process.argv[3],
+	y = +process.argv[4];
+
+if ("add" == op){
+	var answer = x + y;
+	console.log(answer);
+}
+
+else if ("subtract" == op){
+	var answer = x - y;
+	console.log(answer);
+}
+
+else if ("multiply" == op){
+	var answer = x * y;
+	console.log(answer);
+}
+
+else if ("divide"== op){
+	var answer = x / y;
+	console.log(answer);
+}
