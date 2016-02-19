@@ -6,20 +6,16 @@ var op = process.argv[2],
 
 if ("add" == op){
 	var answer = x + y;
-	console.log(answer);
-}
+	console.log(answer);}
 
 else if ("subtract" == op){
 	var answer = x - y;
-	console.log(answer);
-}
+	console.log(answer);}
 
 else if ("multiply" == op){
 	var answer = x * y;
-	console.log(answer);
-}
+	console.log(answer);}
 
 else if ("divide"== op){
 	var answer = x / y;
-	console.log(answer);
-}
+	console.log(answer);}
